@@ -1,6 +1,6 @@
 # Snake Game
 
-CLassico jogo da cobrinha
+Classic snake game
 
 ## Execução do projeto
 

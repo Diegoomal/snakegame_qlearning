@@ -14,6 +14,7 @@ class Game:
         self.vel = [[20, 0], [0, 0], [0, 0], [0, 0]]
 
         self.device = Device()
+        
         # ações teclado
         self.device.set_vel(self.vel)
 
