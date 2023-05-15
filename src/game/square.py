@@ -12,9 +12,8 @@ class Square:
 
         self.velx = 0
         self.vely = 0
-        self.dim = [0, 0, 0,
-                    Configs.GRID_SIZE, Configs.GRID_SIZE,
-                    Configs.GRID_SIZE, Configs.GRID_SIZE, 0]
+        self.dim = [0, 0, 0, Configs.GRID_SIZE,
+                    Configs.GRID_SIZE, Configs.GRID_SIZE, Configs.GRID_SIZE, 0]
 
     def setVel(self, newx, newy):
         self.velx = newx

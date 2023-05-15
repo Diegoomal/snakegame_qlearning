@@ -21,9 +21,9 @@ class Game:
         self.food = Food(x=20, y=20, color='gold').create()
 
         self.snake = Snake(
-            x=Configs.START_POSITION_X,
-            y=Configs.START_POSITION_Y,
-            color='white'
+                x=Configs.START_POSITION_X,
+                y=Configs.START_POSITION_Y,
+                color='white'
             ).create()
 
     def draw(self):
