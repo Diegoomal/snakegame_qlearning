@@ -1,0 +1,4 @@
+tk
+numpy
+pytest==7.1.*
+flake8
