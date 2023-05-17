@@ -12,8 +12,14 @@ class Square:
 
         self.velx = 0
         self.vely = 0
-        self.dim = [0, 0, 0, Configs.GRID_SIZE,
-                    Configs.GRID_SIZE, Configs.GRID_SIZE, Configs.GRID_SIZE, 0]
+        self.dim = [0, 0, 0,
+                    Configs.GRID_SIZE,
+                    Configs.GRID_SIZE,
+                    Configs.GRID_SIZE,
+                    Configs.GRID_SIZE, 0]
+
+    def create(self):
+        ...
 
     def setVel(self, newx, newy):
         self.velx = newx
@@ -47,7 +53,7 @@ class Square:
         if (self.y == Configs.HEIGHT - Configs.GRID_SIZE and self.vely < 0):
             self.y += self.vely
 
-    def update_position(self):
+    def update_random_position(self):
 
         self.x = np.random.randint(
             Configs.GRID_SIZE,
